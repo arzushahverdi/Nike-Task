@@ -1,0 +1,415 @@
+body {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+section {
+  width: 1000px;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  color: #fff;
+  font-family: "Neuwelt";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 150px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.left-navbar {
+  width: 1000px;
+  display: flex;
+  background-color: #000;display: flex;
+  gap: 100px;
+  align-items: center;
+  height: 90px;
+}
+
+.main-menu,
+.last-menu {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-right: 40px;
+}
+.main-menu p,
+.last-menu p {
+  display: flex;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  gap: 50px;
+}
+
+.right-navbar {
+  width: 303px;
+  display: flex;
+  color: #fff;
+  background-color: blue;
+  gap: 40px;
+  align-items: center;
+  padding: 20px 0 20px 40px;
+}
+
+.search-section {
+  width: 1000px;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  margin-left: 400px;
+  align-items: center;
+  gap: 50px;
+}
+
+.search p {
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-weight: 400;
+  color: grey;
+}
+
+.search img {
+  margin-left: 220px;
+}
+
+.search-p {
+  width: 120px;
+}
+
+.nike-section {
+  width: 1343px;
+  align-items: center;
+  background-color: #f7f8f8;
+}
+
+.nike-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.nike-img {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.nike-others {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.nike-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.nike-text h1{
+  width: 400px;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.first-p {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.star {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.price {
+  color: blue;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 40px 0;
+}
+
+.style {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.style p:nth-child(2) {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+select {
+  border: 1px solid rgb(189, 186, 186);
+  padding: 12px 36px;
+}
+
+.buttons button {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  background-color: blue;
+  padding: 12px 36px;
+}
+
+.sale {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.hiroshi-section {
+  width: 1343px;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+
+.hiroshi {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.sign-up button {
+  font-family: "Repair Display";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 50px 0 0 100px;
+  padding: 12px 36px;
+  background-color: #fff;
+  border: 1px solid rgb(189, 186, 186);
+}
+
+.sign-up img {
+  background-color: blue;
+  padding: 14px 15px;
+  align-items: center;
+  margin: 53px 100px 0 0;
+
+}
+
+.hiroshi-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hiroshi-h1 {
+  width: 800px;
+  font-family: "Repair Display", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.lastp {
+  font-family: "Repair Display", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 200px;
+}
+
+.video-section {
+  width: 1343px;
+  align-items: center;
+  background-color: #272935;
+}
+
+.video-info {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 70px 0 70px;
+  gap: 100px;
+}
+
+.video-info img {
+  margin-top: 0;
+}
+
+.video-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-text h1 {
+  width: 350px;
+  color: #fff;
+  font-family: "Repair Display", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.video-text p {
+  width: 450px;
+  color: #fff;
+  font-family: "Repair Display", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+}
+
+.video-text button {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 50px;
+  border: 3px solid #342f82;
+  color: #fff;
+  background-color: #272935;
+  padding: 12px 36px;
+  margin: 50px 0;
+}
+
+.other-shoes-section {
+  width: 1343px;
+  align-items: center;
+}
+
+.other-shoes {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.other-h1 {
+  font-family: "Repair Display", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.other-p {
+  width: 450px;
+  font-family: "Repair Display", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.nike-series {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 0;
+}
+
+.nike-roshe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nike-roshe h1 {
+  font-family: "Repair Display", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.nike-roshe p:first-of-type {
+  font-family: "Repair Display", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.nike-roshe p:last-of-type {
+  color: blue;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 0;
+}
+
+.last-p {
+  width: 450px;
+  font-family: "Repair Display", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  justify-content: center;
+}
+
+.footer-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-section p {
+  color: #fff;
+  font-family: "Repair Display", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.footer-section p:first-of-type {
+  margin-left: 100px;
+}
+
+.footer-section p:last-of-type {
+  margin-right: 100px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
